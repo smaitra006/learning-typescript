@@ -20,9 +20,9 @@ const john: Person = {
   },
 };
 
-const huxn: Person = {
-  firstName: "HuXn",
-  lastName: "WebDev",
+const subhrajit: Person = {
+  firstName: "Subhrajit",
+  lastName: "Maitra",
   age: 18,
   sayHello() {
     console.log("What's good");
@@ -30,7 +30,7 @@ const huxn: Person = {
 };
 
 greet(john);
-greet(huxn);
+greet(subhrajit);
 
 // ----------------------------------
 // Interface #3 (Interface with method properties)

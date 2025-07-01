@@ -41,12 +41,12 @@ const str = uniqueDataTypeFunc<string>("hello", "world");
 console.log(str); // Outputs: ['hello', 'world']
 
 // Example usage with a custom type
-interface Dog {
+interface Dogs {
   name: string;
   breed: string;
 }
 
-const dogPair = uniqueDataTypeFunc<Dog>(
+const dogPair = uniqueDataTypeFunc<Dogs>(
   { name: "Buddy", breed: "Labrador" },
   { name: "Default", breed: "Unknown" }
 );

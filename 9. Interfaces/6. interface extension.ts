@@ -37,13 +37,13 @@ interface User {
   ): string | number;
 }
 
-const huxn: User = {
-  firstName: "HuXn",
-  lastName: "WebDev",
+const subhrajit: User = {
+  firstName: "Subhrajit",
+  lastName: "Maitra",
   age: 18,
   printUserInfo(firstName, lastName, age) {
     return `Name: (${firstName} ${lastName}) Age: (${age})`;
   },
 };
 
-console.log(huxn.printUserInfo("HuXn", "WebDev", 18));
+console.log(subhrajit.printUserInfo("Subhrajit", "Maitra", 18));
